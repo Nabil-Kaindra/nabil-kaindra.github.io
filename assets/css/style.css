@@ -83,8 +83,8 @@ body.dark-theme {
 
 }
 
- 
- 
+
+
 .change-theme:hover {
     color: var(--first-color);
 }
@@ -165,49 +165,49 @@ img {
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
-  }
-  
-  .header.scroll-header {
+}
+
+.header.scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-  }
-  
-  .header .nav {
+}
+
+.header .nav {
     max-width: 968px;
     height: var(--header-height);
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .header .nav-menu .active-link {
+}
+
+.header .nav-menu .active-link {
     color: var(--first-color);
-  }
-  
-  .header .nav-menu.show-menu {
+}
+
+.header .nav-menu.show-menu {
     bottom: 0;
-  }
-  
-  .header .nav-logo, .header .nav-toggle {
+}
+
+.header .nav-logo, .header .nav-toggle {
     font-size: 1.5rem;
     color: var(--title-color);
     font-weight: var(--font-medium);
-  }
-  
-  .header .nav-logo:hover, .header .nav-toggle:hover {
+}
+
+.header .nav-logo:hover, .header .nav-toggle:hover {
     color: var(--first-color);
-  }
-  
-  .header .nav-toggle {
+}
+
+.header .nav-toggle {
     font-size: 1.2rem;
     cursor: pointer;
-  }
-  
-  .header .nav-list {
+}
+
+.header .nav-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-  }
-  
-  .header .nav-link {
+}
+
+.header .nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,29 +215,29 @@ img {
     color: var(--title-color);
     font-weight: var(--font-medium);
     transition: 0.3s;
-  }
-  
-  .header .nav-link-icon {
+}
+
+.header .nav-link-icon {
     font-size: 1.2rem;
-  }
-  
-  .header .nav-link:hover {
+}
+
+.header .nav-link:hover {
     color: var(--first-color);
-  }
-  
-  .header .nav-close {
+}
+
+.header .nav-close {
     position: absolute;
     right: 1.5rem;
     bottom: .7rem;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--first-color);
-  }
-  
-  .header .nav-close:hover {
+}
+
+.header .nav-close:hover {
     color: var(--first-color-alt);
-  }
-  
+}
+
 @media screen and (max-width: 767px) {
     .nav__menu {
         position: fixed;
@@ -552,11 +552,11 @@ img {
 }
 
 .skills__css {
-    width: 60%;
+    width: 80%;
 }
 
 .skills__js {
-    width: 40%;
+    width: 60%;
 }
 
 .skills__react {
@@ -564,7 +564,7 @@ img {
 }
 
 .skills__php {
-    width: 80%;
+    width: 90%;
 }
 
 .skills__node {
@@ -572,7 +572,7 @@ img {
 }
 
 .skills__firebase {
-    width: 90%;
+    width: 60%;
 }
 
 .skills__python {
